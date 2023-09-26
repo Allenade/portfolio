@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Personel Portfolio Design</title>
+    <!-- box icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- css style  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- heaader design  -->
+    <header class="header">
+      <a href="" class="logo">Nade</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Umunade Allen</h1>
+        <h3>And I'm a <span>Fronted Developer</span></h3>
+       
+        <div class="social-media">
+      
+          <a href="https://github.com/Allenade"><i class='bx bxl-github'></i></a>
+          <a href="https://twitter.com/Allen_nade"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/allen-umunade-662489210/"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="image/WhatsApp Image 2023-09-26 at 3.27.44 PM.jpeg" alt="" />
+      </div>
+    </section>
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="image/WhatsApp Image 2023-09-26 at 3.27.44 PM.jpeg" alt="" />
+      </div>
+      <!-- about me -->
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Fronted Developer</h3>
+         <p>
+          I create interactive web experiences using frontend technology. I am
+          interested in user experience, accessibility, design systems, gaming,
+          web3 and web animations.
+        </p>
+      </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Recent <span>Project</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="image/brain-gddea8c033_640.jpg" alt="" />
+          
+          <div class="portfolio-layer">
+            <h4>Movie stream</h4>
+
+            <p>
+              (Repo)
+                 <a href="https://github.com/Allenade/movie2"><i class="bx bx-link-external"></i></a>
+
+              A movie streaming frontend application provides users with an interface to search, browse, and watch a wide range of movies and TV shows, offering personalized recommendations and convenient viewing controls. Users can enjoy their favorite content on various devices with ease.
+            </p>
+            <a href="https://movie2-xi.vercel.app/"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="image/brain-gddea8c033_640.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Profile Card</h4>
+            <p>
+              (Repo)
+                 <a href="https://github.com/Allenade/hngtask"><i class="bx bx-link-external"></i></a>
+Stay connected with me through my social profiles and explore my projects on GitHubStay connected with me through my social profiles and explore my projects on GitHub to get in touch and learn more. to get in touch and learn more.            </p>
+            <a href="https://allenade.github.io/hngtask/"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="image/artificial-intelligence-gb86426565_640.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Drag and Drop</h4>
+            <p>
+               (Repo)
+                 <a href="https://github.com/Allenade/hng3"><i class="bx bx-link-external"></i></a>
+             Drag and drop in React (DnD Kit) simplifies user interactions by allowing effortless movement of elements with intuitive gestures.
+            </p>
+            <a href="https://github.com/Allenade/hng3"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      
+        </div>
+      </div>
+    </section>
+    <!-- contact -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Allen | All Rights Reserved.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+    <!-- scroll  reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- custom js -->
+    <script src="app.js
+    "></script>
+  </body>
+</html>
